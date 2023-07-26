@@ -271,29 +271,46 @@
 
       <button class="btn btn-outline-success btn-secondary text-light " data-bs-target="#myModal"
         data-bs-toggle="modal">Watch New Coin</button>
+      <button class="btn btn-outline-success btn-secondary text-light " data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling">Information</button>
     </div>
   </section>
-  
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">New Coin</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <img src="./assets/img/coins.webp" class="img-fluid" alt="">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
-          </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">New Coin</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/img/coins.webp" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
         </div>
       </div>
     </div>
-  
+  </div>
+
+
+
+  <!-- offcanvas -->
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Information</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body bg-dark-subtle">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse exercitationem expedita odio sint sit. Molestias asperiores quae voluptatum blanditiis at nihil perspiciatis omnis doloribus, nemo, accusamus suscipit sit molestiae, eveniet qui officia magni aliquid fuga natus facilis tempora facere rem officiis! Rerum error animi accusamus, cupiditate nobis ex incidunt perspiciatis!</p>
+    </div>
+  </div>
   <!-- modal -->
 
 
