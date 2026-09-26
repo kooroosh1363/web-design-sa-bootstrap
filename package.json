@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-atlas-component-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node --check assets/js/ui-policy.js && node --check assets/js/component-manifest.js && node --check assets/js/app.js",
+    "test": "node --test",
+    "markup-check": "node scripts/check-markup.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "npm run lint && npm test && npm run markup-check && npm run build"
+  }
+}
